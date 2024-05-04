@@ -35,7 +35,7 @@ def display_images(https_links):
 def main():
     st.title("Show Images from JSON Data")
 
-    url = st.text_input("Enter URL of Google Drive JSON file:")
+    url = st.text_input("Enter URL of JSON file:")
     if st.button("Show"):
         if url:
             try:
